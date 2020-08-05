@@ -14,8 +14,9 @@ hr {
 
 /* Aside */
 aside{
-    margin-left: 30px ;
+    margin-left: 30px;
     width: 30%;
+    margin-right: 10px;
     display: flex;
     flex-direction: column;
 }
@@ -23,6 +24,7 @@ aside{
 figure img{
     width: 100%;
     border-radius: 50px;
+    
 }
 
 figcaption{
@@ -58,16 +60,37 @@ figcaption{
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
-    margin-top: 3%;
-    margin-bottom: 7%;
+    margin-top: 2.5%;
+    margin-bottom: 5.5%;
     font-size: 1.5rem;
 }
 
 .mainContent{
     width: 100%;
-    height: 1200px;
-    margin: 0 auto;
     display: flex;
+    flex-direction: row-reverse;
     margin-top: 30px;
 }
 
+.flexContent{
+display: flex;
+flex-direction: column;
+width: 66%;
+}
+.flexItems{
+    margin-right: 20px;
+}
+.flexPhotos{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.flexItemsRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flexItemsRow img{
+    width: 22%;
+}
