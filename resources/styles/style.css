@@ -162,7 +162,17 @@ section.flexFooter {
 }
 
 /* Media queries */
+@media only screen and (max-width: 370px){
+    figcaption {
+        font-size: 1.4rem;
+        text-align: center;
+        margin: 0 auto;
+}
 @media only screen and (max-width: 650px){
+    .flexPhotos{
+        width: 92%;
+        border-radius: 30px;
+    }
     .content a{
         font-size: 1rem;
         margin: 0;
@@ -181,7 +191,7 @@ section.flexFooter {
         width: 100%;
         justify-content: center;
         align-items: center;
-        margin: 10px;
+        margin: 20px;
     }
     .flexItemsRow{
         display: flex;
@@ -190,8 +200,8 @@ section.flexFooter {
     }
     .flexItemsRow img {
         width: 90%;
-        border-radius: 20px;
-        margin: 5px;
+        border-radius: 30px;
+        margin: 10px;
     }
     aside{
         display: flex;
@@ -205,6 +215,7 @@ section.flexFooter {
         flex-direction: column;
         justify-content: center;
         align-content: center;
+        margin: 20px;
     }
     footer{
         font-size: 1rem;
