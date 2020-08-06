@@ -162,12 +162,6 @@ section.flexFooter {
 }
 
 /* Media queries */
-@media only screen and (max-width: 370px){
-    figcaption {
-        font-size: 1.4rem;
-        text-align: center;
-        margin: 0 auto;
-}
 @media only screen and (max-width: 650px){
     .flexPhotos{
         width: 92%;
